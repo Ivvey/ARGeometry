@@ -9,10 +9,10 @@ button{
 	align-content: center;
 	background-color: #FFFFFF;
 	border: none;
-	border-radius: 12px;
-	padding: 20px 40px;
+	border-radius: 20px;
+	padding: 100px 200px;
 	text-align: center;
-	font-size: 16px;
+	font-size: 40px;
 	transit: 0.4s;
 	}
 button:hover{
@@ -22,5 +22,6 @@ button:hover{
 h1{
 	color: aliceblue;
 	text-align: center;
+	font-si: 30px;
 	}
 
