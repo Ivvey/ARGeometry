@@ -7,12 +7,12 @@
     <script src="https://raw.githack.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js"></script>
     <script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
 	
-    <body style="margin : 0px; overflow: hidden;">
+    <body style='margin : 0px; overflow: hidden;'>
         <!-- we add detectionMode and matrixCodeType to tell AR.js to recognize barcode markers -->
         <a-scene embedded vr-mode-ui="enabled: false" arjs="sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
 
 
-        <a-marker type="barcode" value="1">
+        <a-marker type='barcode' value='1'>
             <a-entity 
 					  position="0 0 0"
 					  scale="0.4 0.4 0.4"
@@ -21,33 +21,6 @@
 			</a-entity>
         </a-marker>
 	
-			<a-marker type="barcode" value="2">
-            <a-entity 
-					  position="0 0 0"
-					  scale="0.4 0.4 0.4"
-					  rotation="180 15 180"
-					  fbx-model="src: https://github.com/Ivvey/ARGeometry/blob/master/Wurfelschlangen/FBX/1b.fbx?raw=true;">
-			</a-entity>
-        </a-marker>
-			
-			<a-marker type="barcode" value="3">
-            <a-entity 
-					  position="0 0 0"
-					  scale="0.4 0.4 0.4"
-					  rotation="180 19 180"
-					  fbx-model="src: https://github.com/Ivvey/ARGeometry/blob/master/Wurfelschlangen/FBX/1a.fbx?raw=true;">
-			</a-entity>
-        </a-marker>
-			
-			<a-marker type="barcode" value="4">
-            <a-entity 
-					  position="0 0 0"
-					  scale="0.4 0.4 0.4"
-					  rotation="0 -1 0"
-					  fbx-model="src: https://github.com/Ivvey/ARGeometry/blob/master/Wurfelschlangen/FBX/1a.fbx?raw=true;">
-			</a-entity>
-        </a-marker>
-			
         </a-scene>
     </body>
 </html>
