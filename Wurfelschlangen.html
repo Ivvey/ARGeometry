@@ -6,7 +6,7 @@
     <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
     <script src="https://raw.githack.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js"></script>
     <script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
-
+	
     <body style='margin : 0px; overflow: hidden;'>
         <!-- we add detectionMode and matrixCodeType to tell AR.js to recognize barcode markers -->
         <a-scene embedded vr-mode-ui="enabled: false" arjs="sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
@@ -17,8 +17,7 @@
 					  position="0 0 0"
 					  scale="0.4 0.4 0.4"
 					  rotation="0 67 0"
-					  obj-model="obj: url(https://raw.githubusercontent.com/Ivvey/ARGeometry/master/Wurfelschlangen/1/1a.obj); 
-								 mtl: url(https://raw.githubusercontent.com/Ivvey/ARGeometry/master/Wurfelschlangen/1/1a.mtl)">
+					  fbx-model="src: https://github.com/Ivvey/ARGeometry/blob/master/Wurfelschlangen/FBX/1a.fbx?raw=true;">
 			</a-entity>
         </a-marker>
 	
